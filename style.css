@@ -1,0 +1,212 @@
+body, html {
+    height: 100%;
+    background-color: black;
+
+}
+.wrapper {
+    height: 100%;
+    display: grid;
+    border: 1px;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 4fr 14fr;
+
+}
+
+.header {
+    background-color: white;
+    display: grid;
+    border: solid;
+    width: 1100px;
+    height: 100%;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 1;
+    text-align: center; 
+    
+
+}
+
+.header-1  {
+    color: coral;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    grid-template-columns: 1;
+    justify-content: left;
+
+}
+
+.header-2 {   
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    color: black;
+    border: solid;
+    width: 1100px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1;
+}
+.text-side {
+    color: white;  
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4fr 1fr;
+}
+.title {
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 25px;
+}
+.text-body {
+    font-size: 15px;
+}
+.explore-all {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    border: solid;
+    width: 1100px;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+.box-1 {
+      
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 13fr 1fr;
+    border-radius: 15px;
+}
+    
+
+.cooking-image {
+    border-radius: 15px 15px 0px 0px;
+    background-image: url('./coooking.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cooking-text {
+    background-color: gray;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+}
+
+.box-2  {
+    border: solid;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr;
+}
+.one {
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+.yoga {  
+    border: solid;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 6fr 1fr;
+    border-radius: 15px;
+}
+
+.yoga-image {
+    border-radius: 15px 15px 0px 0px;
+    
+    background-image: url('./yoga.png');
+    background-position: center;
+}
+
+.yoga-text {
+    background-color: gray;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.cello {
+      
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 6fr 1fr;
+    border-radius: 15px;
+}
+.cello-image {
+    border-radius: 15px 15px 0px 0px;
+    background-image: url('./cello.png');
+    background-position: center;
+}
+.cello-text {
+    background-color: gray;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+}
+
+.two {
+      
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 6fr 1fr;
+    border-radius: 15px;
+}
+.penguin-image {
+    border-radius: 15px 15px 0px 0px;
+    background-image: url('./penguin.png');
+    background-position: center;
+    
+}
+.penguin-text {
+    background-color: gray;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+}
+
+main {
+    border: solid;
+    height: 900px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
